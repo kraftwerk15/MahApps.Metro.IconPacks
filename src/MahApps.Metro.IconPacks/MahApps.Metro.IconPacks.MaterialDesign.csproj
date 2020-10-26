@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);MATERIALDESIGN</DefineConstants>
         <IconsName>MaterialDesign</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.MaterialDesign</AssemblyName>
+        <AssemblyName>Steel_Yard.MahApps.Metro.IconPacks.MaterialDesign</AssemblyName>
         <Title>MahApps.Metro.IconPacks.MaterialDesign</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

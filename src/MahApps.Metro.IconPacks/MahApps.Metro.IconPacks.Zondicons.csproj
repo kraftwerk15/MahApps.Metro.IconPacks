@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);ZONDICONS</DefineConstants>
         <IconsName>Zondicons</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.Zondicons</AssemblyName>
+        <AssemblyName>Steel_Yard.MahApps.Metro.IconPacks.Zondicons</AssemblyName>
         <Title>MahApps.Metro.IconPacks.Zondicons</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

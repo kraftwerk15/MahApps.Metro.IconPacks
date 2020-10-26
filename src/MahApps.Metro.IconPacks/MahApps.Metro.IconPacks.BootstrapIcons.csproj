@@ -4,9 +4,10 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);BOOTSTRAPICONS</DefineConstants>
         <IconsName>BootstrapIcons</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.BootstrapIcons</AssemblyName>
+        <AssemblyName>Steel_Yard.MahApps.Metro.IconPacks.BootstrapIcons</AssemblyName>
         <Title>MahApps.Metro.IconPacks.BootstrapIcons</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
+        <UserSecretsId>f72e405c-622f-4d14-8574-a571ee97f3db</UserSecretsId>
     </PropertyGroup>
 
     <!-- WPF Items include -->

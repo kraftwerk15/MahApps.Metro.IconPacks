@@ -3,7 +3,7 @@
                     xmlns:local="clr-namespace:MahApps.Metro.IconPacks">
 
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro.IconPacks.Zondicons;component/Themes/PackIconZondicons.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/Steel_Yard.MahApps.Metro.IconPacks.Zondicons;component/Themes/PackIconZondicons.xaml" />
     </ResourceDictionary.MergedDictionaries>
 
     <Style TargetType="{x:Type local:PackIconZondicons}" BasedOn="{StaticResource MahApps.Styles.PackIconZondicons}" />

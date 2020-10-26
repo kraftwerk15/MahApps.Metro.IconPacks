@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);WEATHERICONS</DefineConstants>
         <IconsName>WeatherIcons</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.WeatherIcons</AssemblyName>
+        <AssemblyName>Steel_Yard.MahApps.Metro.IconPacks.WeatherIcons</AssemblyName>
         <Title>MahApps.Metro.IconPacks.WeatherIcons</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

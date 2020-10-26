@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);RADIXICONS</DefineConstants>
         <IconsName>RadixIcons</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.RadixIcons</AssemblyName>
+        <AssemblyName>Steel_Yard.MahApps.Metro.IconPacks.RadixIcons</AssemblyName>
         <Title>MahApps.Metro.IconPacks.RadixIcons</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

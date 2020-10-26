@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);VAADINICONS</DefineConstants>
         <IconsName>VaadinIcons</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.VaadinIcons</AssemblyName>
+        <AssemblyName>Steel_Yard.MahApps.Metro.IconPacks.VaadinIcons</AssemblyName>
         <Title>MahApps.Metro.IconPacks.VaadinIcons</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

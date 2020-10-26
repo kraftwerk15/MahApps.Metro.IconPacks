@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);RPGAWESOME</DefineConstants>
         <IconsName>RPGAwesome</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.RPGAwesome</AssemblyName>
+        <AssemblyName>Steel_Yard.MahApps.Metro.IconPacks.RPGAwesome</AssemblyName>
         <Title>MahApps.Metro.IconPacks.RPGAwesome</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

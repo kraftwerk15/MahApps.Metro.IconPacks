@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);REMIXICON</DefineConstants>
         <IconsName>RemixIcon</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.RemixIcon</AssemblyName>
+        <AssemblyName>Steel_Yard.MahApps.Metro.IconPacks.RemixIcon</AssemblyName>
         <Title>MahApps.Metro.IconPacks.RemixIcon</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

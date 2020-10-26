@@ -3,52 +3,17 @@
     <!-- Project properties -->
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);ALL</DefineConstants>
-        <AssemblyName>MahApps.Metro.IconPacks</AssemblyName>
+        <AssemblyName>Steel_Yard.MahApps.Metro.IconPacks</AssemblyName>
         <Title>MahApps.Metro.IconPacks</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
         <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage;GetMyPackageFiles</TargetsForTfmSpecificBuildOutput>
     </PropertyGroup>
 
-    <ItemGroup>
-        <ProjectReference Include="MahApps.Metro.IconPacks.BootstrapIcons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.BoxIcons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.Codicons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.Entypo.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.EvaIcons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.FeatherIcons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.FileIcons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.Fontaudio.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.FontAwesome.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.ForkAwesome.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.Ionicons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.JamIcons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.MaterialDesign.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.Material.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.MaterialLight.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.Microns.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.Modern.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.Octicons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.PicolIcons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.PixelartIcons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.RadixIcons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.RemixIcon.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.RPGAwesome.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.SimpleIcons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.Typicons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.Unicons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.VaadinIcons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.WeatherIcons.csproj" />
-        <ProjectReference Include="MahApps.Metro.IconPacks.Zondicons.csproj" />
-    </ItemGroup>
-
     <!-- WPF Items include -->
     <ItemGroup Condition="'$(_SdkShortFrameworkIdentifier)' != 'uap'">
         <None Remove="**\*.rd.xml" />
         <Compile Remove="Icons\**\*.cs" />
-        <Page Generator="MSBuild:Compile"
-              Include="Themes\WPF\PackIconControl.xaml;Themes\WPF\IconPacks.xaml;Themes\WPF\Generic.xaml"
-              Link="Themes\%(RecursiveDir)%(Filename)%(Extension)"
-              SubType="Designer" />
+        <Page Generator="MSBuild:Compile" Include="Themes\WPF\PackIconControl.xaml;Themes\WPF\IconPacks.xaml;Themes\WPF\Generic.xaml" Link="Themes\%(RecursiveDir)%(Filename)%(Extension)" SubType="Designer" />
     </ItemGroup>
 
     <!-- UWP Items include -->
@@ -60,12 +25,40 @@
         <Compile Remove="*.cs;Icons\**\*.cs;**\*Converter.cs" />
         <Compile Remove="Themes\UAP\**\*.*;Themes\WPF\**\*.*" />
         <Compile Condition=" '$(TargetFramework)' == 'uap10.0.16299' " Include="PackIconExtension.cs" />
-        <Page Generator="MSBuild:Compile"
-              Include="Themes\UAP\IconPacks.xaml;Themes\UAP\Generic.xaml"
-              Link="Themes\%(RecursiveDir)%(Filename)%(Extension)"
-              SubType="Designer"
-              Exclude="**\bin\**\*.xaml;**\obj\**\*.xaml" />
+        <Page Generator="MSBuild:Compile" Include="Themes\UAP\IconPacks.xaml;Themes\UAP\Generic.xaml" Link="Themes\%(RecursiveDir)%(Filename)%(Extension)" SubType="Designer" Exclude="**\bin\**\*.xaml;**\obj\**\*.xaml" />
         <Compile DependentUpon="%(Filename)" Update="**\*.xaml.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="MahApps.Metro.IconPacks.BootstrapIcons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.BoxIcons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.Codicons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.Entypo.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.EvaIcons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.FeatherIcons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.FileIcons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.Fontaudio.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.FontAwesome.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.ForkAwesome.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.Ionicons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.JamIcons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.Material.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.MaterialDesign.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.MaterialLight.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.Microns.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.Modern.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.Octicons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.PicolIcons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.PixelartIcons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.RadixIcons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.RemixIcon.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.RPGAwesome.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.SimpleIcons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.Typicons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.Unicons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.VaadinIcons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.WeatherIcons.csproj" />
+      <ProjectReference Include="MahApps.Metro.IconPacks.Zondicons.csproj" />
     </ItemGroup>
 
     <!-- known issue https://github.com/NuGet/Home/issues/3891

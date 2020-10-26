@@ -4,7 +4,7 @@
     <!-- Project properties -->
     <PropertyGroup>
         <TargetFrameworks>net47;netcoreapp3.1</TargetFrameworks>
-        <AssemblyName>MahApps.Metro.IconPacks.Browser</AssemblyName>
+        <AssemblyName>Steel_Yard.MahApps.Metro.IconPacks.Browser</AssemblyName>
         <RootNamespace>MahApps.Metro.IconPacks.Browser</RootNamespace>
         <!-- <DisableFody Condition=" '$(Configuration)' == 'Debug' or $(TargetFramework.StartsWith('netcoreapp')) ">true</DisableFody> -->
         <!-- <DisableFody>true</DisableFody> -->
@@ -20,11 +20,11 @@
         <ApplicationIcon>Icon\Icon.ico</ApplicationIcon>
     </PropertyGroup>
     <ItemGroup>
+        <ProjectReference Include="..\..\..\lib\src\MahApps.Metro\MahApps.Metro.csproj" />
         <ProjectReference Include="..\MahApps.Metro.IconPacks.Core\MahApps.Metro.IconPacks.Core.csproj" />
         <ProjectReference Include="..\MahApps.Metro.IconPacks\MahApps.Metro.IconPacks.csproj" />
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="MahApps.Metro" Version="2.*" />
         <PackageReference Include="ControlzEx" Version="4.*" />
         <PackageReference Include="AsyncAwaitBestPractices" Version="4.*" />
     </ItemGroup>

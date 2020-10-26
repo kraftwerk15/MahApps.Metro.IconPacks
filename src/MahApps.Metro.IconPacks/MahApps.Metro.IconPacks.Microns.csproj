@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);MICRONS</DefineConstants>
         <IconsName>Microns</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.Microns</AssemblyName>
+        <AssemblyName>Steel_Yard.MahApps.Metro.IconPacks.Microns</AssemblyName>
         <Title>MahApps.Metro.IconPacks.Microns</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

@@ -3,7 +3,7 @@
                     xmlns:local="clr-namespace:MahApps.Metro.IconPacks">
 
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro.IconPacks.Fontaudio;component/Themes/PackIconFontaudio.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/Steel_Yard.MahApps.Metro.IconPacks.Fontaudio;component/Themes/PackIconFontaudio.xaml" />
     </ResourceDictionary.MergedDictionaries>
 
     <Style TargetType="{x:Type local:PackIconFontaudio}" BasedOn="{StaticResource MahApps.Styles.PackIconFontaudio}" />

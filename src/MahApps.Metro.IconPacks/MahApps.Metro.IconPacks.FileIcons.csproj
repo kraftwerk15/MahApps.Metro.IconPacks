@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);FILEICONS</DefineConstants>
         <IconsName>FileIcons</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.FileIcons</AssemblyName>
+        <AssemblyName>Steel_Yard.MahApps.Metro.IconPacks.FileIcons</AssemblyName>
         <Title>MahApps.Metro.IconPacks.FileIcons</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>
