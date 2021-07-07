@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);FORKAWESOME</DefineConstants>
         <IconsName>ForkAwesome</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.ForkAwesome</AssemblyName>
+        <AssemblyName>kraftwerk.MahApps.Metro.IconPacks.ForkAwesome</AssemblyName>
         <Title>MahApps.Metro.IconPacks.ForkAwesome</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

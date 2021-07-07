@@ -3,7 +3,7 @@
 <Project Sdk="MSBuild.Sdk.Extras">
     <!-- Project properties -->
     <PropertyGroup>
-        <AssemblyName>MahApps.Metro.IconPacks.Core</AssemblyName>
+        <AssemblyName>kraftwerk.MahApps.Metro.IconPacks.Core</AssemblyName>
         <Title>MahApps.Metro.IconPacks.Core</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
         <GenerateLibraryLayout>true</GenerateLibraryLayout>

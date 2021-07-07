@@ -3,7 +3,7 @@
                     xmlns:local="clr-namespace:MahApps.Metro.IconPacks">
 
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro.IconPacks.FileIcons;component/Themes/PackIconFileIcons.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/kraftwerk.MahApps.Metro.IconPacks.FileIcons;component/Themes/PackIconFileIcons.xaml" />
     </ResourceDictionary.MergedDictionaries>
 
     <Style TargetType="{x:Type local:PackIconFileIcons}" BasedOn="{StaticResource MahApps.Styles.PackIconFileIcons}" />

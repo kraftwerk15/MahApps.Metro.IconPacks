@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);TYPICONS</DefineConstants>
         <IconsName>Typicons</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.Typicons</AssemblyName>
+        <AssemblyName>kraftwerk.MahApps.Metro.IconPacks.Typicons</AssemblyName>
         <Title>MahApps.Metro.IconPacks.Typicons</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

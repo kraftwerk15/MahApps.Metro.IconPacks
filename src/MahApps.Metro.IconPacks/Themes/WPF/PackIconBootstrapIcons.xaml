@@ -1,7 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:iconPacks="clr-namespace:MahApps.Metro.IconPacks"
-                    xmlns:converter="clr-namespace:MahApps.Metro.IconPacks.Converter;assembly=MahApps.Metro.IconPacks.Core">
+                    xmlns:converter="clr-namespace:MahApps.Metro.IconPacks.Converter;assembly=kraftwerk.MahApps.Metro.IconPacks.Core">
 
     <ControlTemplate x:Key="MahApps.Templates.PackIconBootstrapIcons" TargetType="{x:Type iconPacks:PackIconBootstrapIcons}">
         <Grid>
@@ -17,7 +17,8 @@
                 <Grid.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform x:Name="FlipTransform"
-                                        ScaleX="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Flip, Mode=OneWay, Converter={converter:FlipToScaleXValueConverter}}"
+                                        ScaleX="{Binding RelativeSource={RelativeSource TemplatedParent}, 
+                                        Path=Flip, Mode=OneWay, Converter={converter:FlipToScaleXValueConverter}}"
                                         ScaleY="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Flip, Mode=OneWay, Converter={converter:FlipToScaleYValueConverter}}" />
                         <RotateTransform x:Name="RotationTransform"
                                          Angle="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=RotationAngle, Mode=OneWay}" />

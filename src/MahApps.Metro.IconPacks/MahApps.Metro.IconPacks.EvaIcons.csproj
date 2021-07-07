@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);EVAICONS</DefineConstants>
         <IconsName>EvaIcons</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.EvaIcons</AssemblyName>
+        <AssemblyName>kraftwerk.MahApps.Metro.IconPacks.EvaIcons</AssemblyName>
         <Title>MahApps.Metro.IconPacks.EvaIcons</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

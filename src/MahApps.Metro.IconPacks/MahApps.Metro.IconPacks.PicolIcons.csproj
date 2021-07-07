@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);PICOLICONS</DefineConstants>
         <IconsName>PicolIcons</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.PicolIcons</AssemblyName>
+        <AssemblyName>kraftwerk.MahApps.Metro.IconPacks.PicolIcons</AssemblyName>
         <Title>MahApps.Metro.IconPacks.PicolIcons</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

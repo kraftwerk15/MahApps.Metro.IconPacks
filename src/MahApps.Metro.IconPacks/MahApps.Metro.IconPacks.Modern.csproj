@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);MODERN</DefineConstants>
         <IconsName>Modern</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.Modern</AssemblyName>
+        <AssemblyName>kraftwerk.MahApps.Metro.IconPacks.Modern</AssemblyName>
         <Title>MahApps.Metro.IconPacks.Modern</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

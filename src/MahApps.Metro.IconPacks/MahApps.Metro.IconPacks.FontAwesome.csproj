@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);FONTAWESOME</DefineConstants>
         <IconsName>FontAwesome</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.FontAwesome</AssemblyName>
+        <AssemblyName>kraftwerk.MahApps.Metro.IconPacks.FontAwesome</AssemblyName>
         <Title>MahApps.Metro.IconPacks.FontAwesome</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

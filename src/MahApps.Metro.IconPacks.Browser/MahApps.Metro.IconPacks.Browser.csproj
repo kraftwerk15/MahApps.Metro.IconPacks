@@ -3,8 +3,8 @@
 <Project Sdk="MSBuild.Sdk.Extras">
     <!-- Project properties -->
     <PropertyGroup>
-        <TargetFrameworks>net47;netcoreapp3.1</TargetFrameworks>
-        <AssemblyName>MahApps.Metro.IconPacks.Browser</AssemblyName>
+        <TargetFramework>net48</TargetFramework>
+        <AssemblyName>kraftwerk.MahApps.Metro.IconPacks.Browser</AssemblyName>
         <RootNamespace>MahApps.Metro.IconPacks.Browser</RootNamespace>
         <!-- <DisableFody Condition=" '$(Configuration)' == 'Debug' or $(TargetFramework.StartsWith('netcoreapp')) ">true</DisableFody> -->
         <!-- <DisableFody>true</DisableFody> -->

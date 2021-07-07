@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);OCTICONS</DefineConstants>
         <IconsName>Octicons</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.Octicons</AssemblyName>
+        <AssemblyName>kraftwerk.MahApps.Metro.IconPacks.Octicons</AssemblyName>
         <Title>MahApps.Metro.IconPacks.Octicons</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

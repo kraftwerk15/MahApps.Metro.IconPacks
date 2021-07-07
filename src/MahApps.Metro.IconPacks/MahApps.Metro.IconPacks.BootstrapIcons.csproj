@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);BOOTSTRAPICONS</DefineConstants>
         <IconsName>BootstrapIcons</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.BootstrapIcons</AssemblyName>
+        <AssemblyName>kraftwerk.MahApps.Metro.IconPacks.BootstrapIcons</AssemblyName>
         <Title>MahApps.Metro.IconPacks.BootstrapIcons</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

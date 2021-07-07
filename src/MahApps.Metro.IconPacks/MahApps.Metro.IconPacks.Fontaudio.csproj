@@ -4,7 +4,7 @@
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);FONTAUDIO</DefineConstants>
         <IconsName>Fontaudio</IconsName>
-        <AssemblyName>MahApps.Metro.IconPacks.Fontaudio</AssemblyName>
+        <AssemblyName>kraftwerk.MahApps.Metro.IconPacks.Fontaudio</AssemblyName>
         <Title>MahApps.Metro.IconPacks.Fontaudio</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
     </PropertyGroup>

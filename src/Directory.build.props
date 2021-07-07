@@ -2,10 +2,11 @@
 
     <!-- Project properties -->
     <PropertyGroup>
-        <TargetFrameworks>net45;net46;net47;netcoreapp3.0;netcoreapp3.1;uap10.0.16299</TargetFrameworks>
+<!--        <TargetFramework>net5.0-windows</TargetFramework>-->
+        <TargetFramework>net48</TargetFramework>
         <AppendTargetFrameworkToOutputPath>true</AppendTargetFrameworkToOutputPath>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <AutoGenerateBindingRedirects Condition=" $(TargetFramework.StartsWith('net4')) or $(TargetFramework.StartsWith('uap')) ">true</AutoGenerateBindingRedirects>
+        <AutoGenerateBindingRedirects Condition=" $(TargetFramework.StartsWith('net')) or $(TargetFramework.StartsWith('uap')) ">true</AutoGenerateBindingRedirects>
         <LangVersion>latest</LangVersion>
         <DebugSymbols>true</DebugSymbols>
         <DebugType>full</DebugType>
