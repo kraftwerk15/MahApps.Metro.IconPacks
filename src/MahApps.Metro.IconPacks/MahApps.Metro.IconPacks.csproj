@@ -3,7 +3,7 @@
     <!-- Project properties -->
     <PropertyGroup>
         <DefineConstants>$(DefineConstants);ALL</DefineConstants>
-        <AssemblyName>MahApps.Metro.IconPacks</AssemblyName>
+        <AssemblyName>kraftwerk.MahApps.Metro.IconPacks</AssemblyName>
         <Title>MahApps.Metro.IconPacks</Title>
         <RootNamespace>MahApps.Metro.IconPacks</RootNamespace>
         <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage;GetMyPackageFiles</TargetsForTfmSpecificBuildOutput>
